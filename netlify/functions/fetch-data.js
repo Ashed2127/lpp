@@ -1,8 +1,8 @@
 const fetch = require('node-fetch'); 
 
 // * IMPORTANT: UPDATE THESE VARIABLES TO MATCH YOUR PRIVATE REPO DETAILS *
-const GITHUB_OWNER = 'YOUR_GITHUB_USERNAME'; 
-const GITHUB_REPO = 'YOUR_DATA_REPO_NAME';   
+const GITHUB_OWNER = 'https://github.com/ashed2127'; 
+const GITHUB_REPO = 'https://github.com/ashed2127/llpjson';   
 const FILE_PATH = 'data.json'; 
 const BRANCH = 'main'; // or 'master'
 
