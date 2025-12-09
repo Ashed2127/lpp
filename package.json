@@ -1,0 +1,13 @@
+{
+  "name": "linksport-netlify",
+  "version": "1.0.0",
+  "description": "LinksPort migrated to Netlify Functions",
+  "main": "netlify/functions/fetch-data.js",
+  "scripts": {
+    "start": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
