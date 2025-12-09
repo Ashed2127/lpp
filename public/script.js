@@ -123,8 +123,8 @@
  
      try {
          // 🚨 IMPORTANT: This URL calls your Netlify Function
-         const response = await fetch('/.netlify/functions/fetch-data');
-         
+         const response = await fetch('/.netlify/functions/fetchData');
+          
          if (!response.ok) {
              throw new Error(`HTTP error! status: ${response.status}`);
          }
