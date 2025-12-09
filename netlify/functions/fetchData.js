@@ -5,7 +5,7 @@
  const GITHUB_OWNER = 'ashed2127';
  const GITHUB_REPO = 'llpjson';
  const FILE_PATH = 'data.json';
- const BRANCH = 'master';  
+ const BRANCH = 'main';   
  
  // 🚨 2. SECURELY GET THE TOKEN
  // This variable MUST be set in your Netlify Environment Variables.
