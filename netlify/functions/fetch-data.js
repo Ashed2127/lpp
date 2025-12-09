@@ -1,14 +1,14 @@
 const fetch = require('node-fetch'); 
 
 // * IMPORTANT: UPDATE THESE VARIABLES TO MATCH YOUR PRIVATE REPO DETAILS *
-const GITHUB_OWNER = 'https://github.com/ashed2127'; 
-const GITHUB_REPO = 'https://github.com/ashed2127/llpjson';   
+const GITHUB_OWNER = 'ashed2127';  
+const GITHUB_REPO = 'llpjson';   
 const FILE_PATH = 'data.json'; 
 const BRANCH = 'main'; // or 'master'
 
 // The URL to fetch the raw content of your JSON file
-const GITHUB_URL = \https://raw.githubusercontent.com/\${GITHUB_OWNER}/\${GITHUB_REPO}/\${BRANCH}/\${FILE_PATH}\;
-
+const GITHUB_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${BRANCH}/${FILE_PATH}`;
+ 
 exports.handler = async (event, context) => {
     // This token is securely injected by Netlify from your environment variables
     const githubToken = process.env.GITHUB_ACCESS_TOKEN;
